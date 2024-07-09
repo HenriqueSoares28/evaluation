@@ -23,7 +23,7 @@ class SuperpixelEvaluator:
             "--save", self.save_path,
             "--label", self.spx_map_path
         ]
-        return ["./bin/main"] + params
+        return ["/content/evaluation/bin"] + params
 
     def run(self):
         self.create_save_directory()
