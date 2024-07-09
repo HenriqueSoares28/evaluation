@@ -4,7 +4,7 @@ EXT="pgm" # extension of superpixel map images
 IMG_PATH="data/original" # original images path
 GT_PATH="data/gt" # gt images path
 SPX_MAP_PATH="data\disf" # superpixel map images path
-SAVE_PATH="../RESULTS/Segm/DISF/Landsat-8_pca_MinSpx70/10000/" # save path
+SAVE_PATH="ou" # save path
 MIN_SPX_SIZE=70  # minimum superpixel size
 
 mkdir -p ${SAVE_PATH}
